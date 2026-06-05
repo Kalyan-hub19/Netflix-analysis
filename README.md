@@ -28,19 +28,19 @@ The goal is to perform Exploratory Data Analysis (EDA) using SQL queries and gen
 
 The dataset contains information about Netflix content, including:
 
-Column	Description
-show_id	Unique identifier
-type	Movie or TV Show
-title	Content title
-director	Director name
-cast	Cast members
-country	Production country
-date_added	Date added to Netflix
-release_year	Release year
-rating	Content rating
-duration	Duration/Seasons
-listed_in	Genre
-description	Content description
+- Column	Description
+- show_id	Unique identifier
+- type	Movie or TV Show
+- title	Content title
+- director	Director name
+- cast	Cast members
+- country	Production country
+- date_added	Date added to Netflix
+- release_year	Release year
+- rating	Content rating
+- duration	Duration/Seasons
+- listed_in	Genre
+- description	Content description
 
 🧹 Data Cleaning & Preparation
 ---
