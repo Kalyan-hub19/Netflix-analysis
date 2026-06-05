@@ -18,10 +18,10 @@ Practice advanced SQL concepts such as aggregations, joins, and subqueries
 
 🛠️ Tools & Technologies
 ---
-PostgreSQL
-SQL
-Netflix Titles Dataset
-Data Analysis & Query Optimization
+PostgreSQL.
+SQL.
+Netflix Titles Dataset.
+Data Analysis & Query Optimization.
 
 📂 Dataset Information
 ---
