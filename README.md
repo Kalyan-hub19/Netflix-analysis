@@ -18,10 +18,10 @@ Practice advanced SQL concepts such as aggregations, joins, and subqueries
 
 🛠️ Tools & Technologies
 ---
-PostgreSQL.
-SQL.
-Netflix Titles Dataset.
-Data Analysis & Query Optimization.
+- PostgreSQL.
+- SQL.
+- Netflix Titles Dataset.
+- Data Analysis & Query Optimization.
 
 📂 Dataset Information
 ---
@@ -47,11 +47,11 @@ description	Content description
 
 Before analysis, the dataset was cleaned using SQL:
 ---
-Checked for missing values
-Handled NULL records
-Standardized date formats
-Removed duplicate entries
-Processed multi-value fields (Country, Genres)
+- Checked for missing values
+- Handled NULL records
+- Standardized date formats
+- Removed duplicate entries
+- Processed multi-value fields (Country, Genres)
 
 Example:
 
@@ -107,11 +107,11 @@ ORDER BY total DESC;
 
 🔥 Advanced SQL Concepts Used
 ---
-Aggregations
-COUNT()
-GROUP BY
-ORDER BY
-Subqueries
+- Aggregations
+- COUNT()
+- GROUP BY
+- ORDER BY
+- Subqueries
 SELECT *
 FROM netflix
 WHERE release_year = (
@@ -126,22 +126,22 @@ ON a.country_id = b.id;
 
 📈 Key Insights
 ---
-Netflix hosts more Movies than TV Shows.
-Content production grew rapidly after 2015.
-The United States produces the highest number of titles.
-TV-MA and TV-14 are the most common content ratings.
-Netflix continues expanding international content production.
+- Netflix hosts more Movies than TV Shows.
+- Content production grew rapidly after 2015.
+- The United States produces the highest number of titles.
+- TV-MA and TV-14 are the most common content ratings.
+- Netflix continues expanding international content production.
 
 💼 Business Value
 ---
 
 This analysis can help media companies:
 
-Understand content production trends
-Identify high-performing regions
-Optimize content investment decisions
-Improve audience targeting strategies
-Support content acquisition planning
+- Understand content production trends
+- Identify high-performing regions
+- Optimize content investment decisions
+- Improve audience targeting strategies
+- Support content acquisition planning
 
 📋 Sample SQL Queries
 ---
