@@ -58,7 +58,9 @@ Example:
 SELECT *
 FROM netflix
 WHERE country IS NULL;
+
 📊 Key Analysis Performed
+---
 1️⃣ Movies vs TV Shows Distribution
 ---
 SELECT type, COUNT(*) AS total_content
