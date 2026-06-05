@@ -9,12 +9,12 @@ The goal is to perform Exploratory Data Analysis (EDA) using SQL queries and gen
 
 🚀 Objectives
 ---
-Analyze the distribution of Movies vs TV Shows
-Study content release trends over the years
-Identify top content-producing countries
-Understand audience targeting through content ratings
-Explore genre popularity
-Practice advanced SQL concepts such as aggregations, joins, and subqueries
+-Analyze the distribution of Movies vs TV Shows
+-Study content release trends over the years
+-Identify top content-producing countries
+-Understand audience targeting through content ratings
+-Explore genre popularity
+-Practice advanced SQL concepts such as aggregations, joins, and subqueries
 
 🛠️ Tools & Technologies
 ---
