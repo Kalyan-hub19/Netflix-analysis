@@ -54,11 +54,11 @@ Before analysis, the dataset was cleaned using SQL:
 - Processed multi-value fields (Country, Genres)
 
 Example:
-
+```
 SELECT *
 FROM netflix
 WHERE country IS NULL;
-
+```
 📊 Key Analysis Performed
 ---
 1️⃣ Movies vs TV Shows Distribution
