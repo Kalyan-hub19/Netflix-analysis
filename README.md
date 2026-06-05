@@ -63,48 +63,53 @@ WHERE country IS NULL;
 ---
 1️⃣ Movies vs TV Shows Distribution
 ---
+```
 SELECT type, COUNT(*) AS total_content
 FROM netflix
 GROUP BY type;
-
+```
 Insight: Netflix contains significantly more Movies than TV Shows.
 ---
 2️⃣ Content Release Trend Analysis
 ---
+```
 SELECT release_year, COUNT(*) AS total_titles
 FROM netflix
 GROUP BY release_year
 ORDER BY release_year;
-
+```
 Insight: Content production increased rapidly after 2015.
 ---
 
 3️⃣ Top Content Producing Countries
 ---
+```
 SELECT country, COUNT(*) AS total_titles
 FROM netflix
 GROUP BY country
 ORDER BY total_titles DESC
 LIMIT 10;
-
+```
 Insight: The United States dominates content production, followed by India, the UK, and Canada.
 ---
 4️⃣ Content Rating Analysis
 ---
+```
 SELECT rating, COUNT(*) AS total_titles
 FROM netflix
 GROUP BY rating
 ORDER BY total_titles DESC;
-
+```
 Insight: TV-MA and TV-14 are the most common ratings, indicating strong focus on adult and teen audiences.
 ---
 5️⃣ Most Popular Genres
 ---
+```
 SELECT listed_in, COUNT(*) AS total
 FROM netflix
 GROUP BY listed_in
 ORDER BY total DESC;
-
+```
 🔥 Advanced SQL Concepts Used
 ---
 - Aggregations
@@ -112,6 +117,7 @@ ORDER BY total DESC;
 - GROUP BY
 - ORDER BY
 - Subqueries
+```
 SELECT *
 FROM netflix
 WHERE release_year = (
@@ -123,7 +129,7 @@ SELECT a.title, b.country
 FROM netflix a
 JOIN countries b
 ON a.country_id = b.id;
-
+```
 📈 Key Insights
 ---
 - Netflix hosts more Movies than TV Shows.
@@ -146,27 +152,34 @@ This analysis can help media companies:
 📋 Sample SQL Queries
 ---
 Find Longest Movie
+```
 SELECT title, duration
 FROM netflix
 WHERE type = 'Movie'
 ORDER BY duration DESC
 LIMIT 1;
+```
 Find Movies Released in 2020
+```
 SELECT title
 FROM netflix
 WHERE release_year = 2020
 AND type = 'Movie';
+```
 Content Added Each Year
+```
 SELECT EXTRACT(YEAR FROM date_added) AS year_added,
 COUNT(*) AS total
 FROM netflix
 GROUP BY year_added
 ORDER BY year_added;
+```
 Find Content from India
+```
 SELECT title, type
 FROM netflix
 WHERE country = 'India';
-
+```
 🎯 Summary
 ---
 
@@ -174,14 +187,16 @@ Performed Exploratory Data Analysis on Netflix Movies and TV Shows data using Po
 
 👨‍💻 Author
 ---
-
+```
 Lakavath Kalyan
+```
 Aspiring Data Analyst | SQL | PostgreSQL | Data Analytics
 
 🔗 GitHub: https://github.com/Kalyan-hub19
 
 Repository Structure
 ---
+```
 Netflix-analysis/
 │
 ├── Dataset/
@@ -194,4 +209,4 @@ Netflix-analysis/
 │
 └── Project Report/
     └── Netflix_Project.pdf
-
+```
